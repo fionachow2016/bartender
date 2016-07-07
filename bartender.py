@@ -47,12 +47,12 @@ def main():
     
     preferences = find_preferences()
     drink = make_drink(preferences)
-    if not all(drink):
-        print ("Here is your drink.")
-        for ingreditent in drink:
-            print ("The receipe is: {}" .format(ingreditent))
-    else:
-        print ("A glass of water for you.")
+    #if not all(drink):
+    print ("Here is your drink. the receipe is :")
+    for ingreditent in drink:
+        print ("A {}" .format(ingreditent))
+    #else:
+    #    print ("A glass of water for you.")
 
 
 if __name__ == '__main__':
